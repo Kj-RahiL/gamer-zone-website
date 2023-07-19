@@ -173,3 +173,89 @@ li {
     padding: 5px;
 }
 
+.icons-container {
+    padding: 120px;
+}
+
+.icons-container>div {
+    display: flex;
+    padding: 15px;
+    gap: 25px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.icons h5 {
+    color: #0B0223;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.icons img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.icons:hover {
+    cursor: pointer;
+    border: 2px solid #ff42A4;
+}
+
+.icons h5:hover {
+    color: #ff42A4;
+}
+
+.footer-container {
+    background: #0B0223;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.logof h1 {
+    color: #fff;
+}
+
+.privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+    padding: 20px;
+    font-weight: 500;
+
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
