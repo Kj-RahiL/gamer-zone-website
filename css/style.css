@@ -134,17 +134,30 @@ li {
 
 .online-games-text {}
 
-.online-games-text h3 {}
+.online-games-text h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 100px;
 
-.online-games-text p {}
+}
+
+.online-games-text p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
 
 .online-games-images {
     display: flex;
     gap: 10px;
     width: 80%;
     margin: 0 auto;
+
 }
-.box{
+
+.box {
     width: 25%;
 }
 
@@ -155,8 +168,8 @@ li {
 
 .box p {
     color: #534C64;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 5px;
-   
 }
+
