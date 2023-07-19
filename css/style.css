@@ -247,7 +247,7 @@ li {
    
 }
 .iconbox img{
-    background-color: rgba(132, 119, 119, 0.9) , rgba(128, 128, 128, 0.5);
+    background-color: linear-gradient( rgba(108, 105, 105, 0.5), rgb(100, 88, 88,0.8));
     background-blend-mode: overlay;
 }
 .iconbox i{
