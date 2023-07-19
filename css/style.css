@@ -242,7 +242,21 @@ li {
     background-color: #fff;
     /* margin: 0 auto; */
 }
-
+.iconbox{
+    position: relative;
+   
+}
+.iconbox img{
+    background-color: rgba(132, 119, 119, 0.9) , rgba(128, 128, 128, 0.5);
+    background-blend-mode: overlay;
+}
+.iconbox i{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgb(253, 253, 253);
+    font-size: 3rem;
+}
 .icons p{
     display: inline-block;
     color: #0B0223;
