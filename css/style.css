@@ -272,15 +272,15 @@ li {
     background: #0B0223;
     color: #fff;
     text-align: center;
-    padding: 100px;
+    padding: 100px 300px;
 }
 
 .footer-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 20px;
+    gap: 30px;
+    padding: 50px;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -289,7 +289,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .logof h1 {
@@ -297,14 +297,12 @@ li {
 }
 
 .privacy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     color: rgba(255, 255, 255, 0.60);
-    font-size: 0.9rem;
-    padding: 20px;
+    font-size: 0.7rem;
     font-weight: 500;
+    margin: 20px 70px;
 
 }
 
@@ -313,8 +311,34 @@ li {
     font-size: 0.8rem;
     font-weight: 500;
 }
-
+.hidden{
+    display:none;
+}
 
 /* resposive website in mobile and css */
 
 /* for mobile */
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .banner-section{
+        flex-direction: column;
+        padding: 50px 100px;
+    }
+    .footer-container{
+        padding: 60px 30px;
+    }
+    .footer-menu{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .privacy{
+        row-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
