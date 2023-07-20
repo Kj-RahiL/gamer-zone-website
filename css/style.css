@@ -173,6 +173,30 @@ li {
     font-weight: 500;
     padding: 5px;
 }
+.iconbox{
+    position: relative;
+}
+.play-icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(253, 253, 253);
+    font-size: 3rem;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.play-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
 /* online play games */
 .play-container {
@@ -241,22 +265,6 @@ li {
     border-radius: 40px;
     background-color: #fff;
     /* margin: 0 auto; */
-}
-.iconbox{
-    position: relative;
-   
-}
-.iconbox img:hover{
-    cursor: pointer;
-    background: linear-gradient( rgba(108, 105, 105, 0.5), rgb(1, 1, 1,0.8));
-    background-blend-mode: overlay;
-}
-.iconbox i{
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    color: rgb(253, 253, 253);
-    font-size: 3rem;
 }
 .icons p{
     display: inline-block;
@@ -347,6 +355,7 @@ li {
 
     .banner-section {
         flex-direction: column;
+        margin-bottom: 40px;
 
     }
 
@@ -361,6 +370,7 @@ li {
     .banner-images img {
         width: 100%;
         height: 80%;
+    
 
     }
 
@@ -369,14 +379,17 @@ li {
         background-repeat: no-repeat;
         padding: 25px;
         width: 100%;
+        
     }
 
     .online-games {
+        margin-top: 20px;
         padding: 80px 20px;
 
     }
 
     .online-games-text h3 {
+        
         font-size: 1.8rem;
         padding-bottom: 10px;
     }
