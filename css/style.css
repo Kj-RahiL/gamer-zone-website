@@ -161,6 +161,10 @@ li {
 .box {
     width: 25%;
 }
+.box:hover{
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(217, 214, 214, 0.847);
+}
 
 .box img {
     width: 100%;
