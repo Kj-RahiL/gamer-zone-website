@@ -264,7 +264,13 @@ li {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
 }
-
+/* .icons:nth-child(-n+5){
+    grid-row: 1;
+}
+.icons:nth-child(n+6){
+    grid-row: 2;
+    margin: 0 auto;
+} */
 .icons {
     display: flex;
     align-items: center;
@@ -448,12 +454,21 @@ li {
         margin-top: -120px;
     }
     .icons-container{
-        padding: 100px 30px;
+        padding: 50px 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
     }
-    
+    .icons img {
+        padding: 2px;
+        width: 30px;
+        height: 30px;
+    }
+    .icons p{
+        font-size: 0.5rem;
+    }
     .footer-container {
         padding: 60px 30px;
     }
@@ -579,6 +594,7 @@ li {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+    
     
     .footer-container {
         padding: 60px 30px;
