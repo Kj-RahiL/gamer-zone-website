@@ -351,6 +351,10 @@ li {
 
 /* for mobile */
 @media screen and (max-width:576px) {
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
     .navbar {
 
         flex-direction: column;
@@ -389,7 +393,11 @@ li {
         padding: 25px;
         width: 100%;
         
+        
     }
+.banner-details h1{
+    font-size: 40px;
+}
 
     .online-games {
         /* margin-top: 20px; */
